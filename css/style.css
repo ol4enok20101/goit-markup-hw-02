@@ -1,0 +1,16 @@
+/*
+цвет текста
+color: #212121; черный
+color: #FFFFFF; белый
+color: #2196F3; голубой
+color: #757575; серый
+
+цвет фона
+background: #FFFFFF; белый
+background: #F5F4FA; серый
+background: #2F303A; темный
+*/
+body {
+    font-family: 'Roboto', sans-serif, 'Montserrat', sans-serif;
+    font-size: 14px;
+}

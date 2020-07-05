@@ -5,28 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <!--Хедер-->
-    <header>
-        <nav>
-            <a href="/"><span>Web</span> Studio</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="logo" href="/"><span>Web</span> Studio</a>
 
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="navigation-list">
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link" href="">Студия</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link" href="">Контакты</a>
+                </li>
             </ul>
         </nav>
 
         <ul>
             <li>
-                <address><a href="mailto:info@devstudio.com">info@devstudio.com</a></address>
-            </li>
+                <address>
+                    <a class="company-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </address>
             <li>
-                <address><a href="tel:+380961111111">+38 096 111 11 11</a></address>
+                <address>
+                    <a class="company-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                </address>
             </li>
         </ul>
 

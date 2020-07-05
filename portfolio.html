@@ -7,41 +7,50 @@
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
     <!--Хедер-->
-    <header>
-        <nav>
-            <a href="/"><span>Web</span> Studio</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="logo-link link" href="/"><span class="logo-link-web link">Web</span> Studio</a>
 
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link" href="">Студия</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link" href="">Контакты</a>
+                </li>
             </ul>
         </nav>
 
-        <ul>
-            <li>
-                <address><a href="mailto:info@devstudio.com">info@devstudio.com</a></address>
-            </li>
-            <li>
-                <address><a href="tel:+380961111111">+38 096 111 11 11</a></address>
-            </li>
-        </ul>
+        <address class="address">
+            <ul class="list">
+                <li>
+                    <a class="company-mail link" href="mailto:info@devstudio.com">info@devstudio.com
+                    </a>
+                </li>
+                <li>
+                    <a class="company-phone link" href="tel:+380961111111">+38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </address>
 
     </header>
 
     <main>
 
-        <ul>
-            <li>Все</li>
+        <ul class="portfolio-button-list list">
+            <li class="portfolio-button">Все</li>
             <li>Веб-сайты</li>
             <li>Приложения</li>
             <li>Дизайн</li>
@@ -98,38 +107,47 @@
 
     <footer>
         <!--Контакты-->
-        <section>
+        <section class="contacts">
+            <h2 hidden>Контакты</h2>
             <div>
-                <h2 hidden>Контакты</h2>
-                <a href="/"><span>Web</span> Studio</a>
-                <ul>
-                    <li>
-                        <address>
-                            <a href="https://goo.gl/maps/VdEKPKN24WeTXLv36" target="_blank">г. Киев, пр-т Леси
-                                Украинки, 26</a>
-                        </address>
-                    </li>
-                    <li>
-                        <address>
-                            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </address>
-                    </li>
-                    <li>
-                        <address>
-                            <a href="tel:+380961111111">+38 096 111 11 11</a>
-                        </address>
-                    </li>
-                </ul>
+                <a class="logo-link link" href="/"><span class="logo-link-web link">Web</span> Studio</a>
+                <address class="address">
+                    <ul class="list">
+                        <li>
+                            <a class="company-address link" href="https://goo.gl/maps/VdEKPKN24WeTXLv36"
+                                target="_blank">г.
+                                Киев,
+                                пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li>
+                            <a class="company-mail link" href="mailto:info@devstudio.com">info@devstudio.com
+                            </a>
+                        </li>
+                        <li>
+                            <a class="company-phone link" href="tel:+380961111111">+38 096 111 11 11
+                            </a>
+                        </li>
+                    </ul>
+                </address>
             </div>
 
             <div>
-                <b>Присоединяйтесь</b>
-                <ul>
-                    <li><a href=""><img src="./images/instagram.svg" alt="Ссылка на профиль Инстаграм"></a></li>
-                    <li><a href=""><img src="./images/twitter.svg" alt="Ссылка на профиль Твиттер"></a></li>
-                    <li><a href=""><img src="./images/facebook.svg" alt="Ссылка на профиль Фейсбук"></a></li>
-                    <li><a href=""><img src="./images/linkedin.svg" alt="Ссылка на профиль Линкедин"></a></li>
+                <b class="join">Присоединяйтесь</b>
+                <ul class="join-links-list list">
+                    <li class="join-links-item">
+                        <a href=""><img src="./images/instagram.svg" alt="Ссылка на профиль Инстаграм"></a>
+                    </li>
+                    <li class="join-links-item">
+                        <a href=""><img src="./images/twitter.svg" alt="Ссылка на профиль Твиттер"></a>
+                    </li>
+                    <li class="join-links-item">
+                        <a href=""><img src="./images/facebook.svg" alt="Ссылка на профиль Фейсбук"></a>
+                    </li>
+                    <li class="join-links-item">
+                        <a href=""><img src="./images/linkedin.svg" alt="Ссылка на профиль Линкедин"></a>
+                    </li>
                 </ul>
             </div>
         </section>
     </footer>
+</body>

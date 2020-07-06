@@ -11,9 +11,18 @@ background: #FFFFFF; белый
 background: #F5F4FA; серый
 background: #2F303A; темный
 */
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --section-title-color: #212121;
+    --accent-color: #2196F3;
+    --accent-text: #FFFFFF;
+    --description-text-color: #757575;
+    --title-text-color: #212121;
+}
 body {
     background-color: #ffffff;
-    font-family: 'Roboto', sans-serif, 'Montserrat', sans-serif;
+    font-family: var(--main-font);
     font-size: 14px;
 }
 .link {
@@ -25,7 +34,7 @@ body {
 
 /*Хедер*/
 .logo-link {
-    font-family: Raleway;
+    font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -33,7 +42,7 @@ body {
     color: #000000;
 }
 .logo-link-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .navigation-list-link,
 .company-mail,
@@ -47,20 +56,20 @@ body {
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .address {
     font-style: normal;
 }
 .company-mail,
 .company-phone {
-    color: #757575;
+    color: var(--description-text-color);
 }
 .company-mail:hover, 
 .company-mail:focus,
 .company-phone:hover, 
 .company-phone:focus {
-    color: #2196F3; 
+    color: var(--accent-color);
 }
 
 /*универсальный заголовок секции*/
@@ -70,7 +79,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--section-title-color);
 }
 
 /*Герой*/
@@ -89,7 +98,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 /*Преимущества*/
@@ -106,7 +115,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--description-text-color);
 }
 
 /*Чем мы занимаемся*/
@@ -131,7 +140,7 @@ body {
 }
 .team-member-position {
     font-weight: normal;
-    color: #757575;
+    color: var(--description-text-color);
 }
 
 /*Постоянные клиенты*/
@@ -154,5 +163,18 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121; /*изменить цвет потом*/
+}
 
+/*Портфолио*/
+.portfolio-button-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.portfolio-button-list-item:hover,
+.portfolio-button-list-item:focus {
+    background-color: var(--accent-color);
+    color: var(--accent-text);
 }

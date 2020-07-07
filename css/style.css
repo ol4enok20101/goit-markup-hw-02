@@ -164,6 +164,9 @@ body {
     text-transform: uppercase;
     color: #212121; /*изменить цвет потом*/
 }
+.logo-footer {
+    /* color: #FFFFFF; */
+}
 
 /*Портфолио*/
 .portfolio-button-list-item {

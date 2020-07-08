@@ -181,3 +181,19 @@ body {
     background-color: var(--accent-color);
     color: var(--accent-text);
 }
+.portfolio-example-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.portfolio-example-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--description-text-color);
+}
+
+
